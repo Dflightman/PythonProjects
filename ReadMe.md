@@ -5,7 +5,7 @@ This site hosts python projects on different topics
 ## Requirments used:
 + **HTML5** for markup
 + **CSS3** for styling 
-+ Bit of **Jquery** to make header animation effects work
++ Bit of **Jquery** to make header and loader animation effects work
 
 
 Hope you enjoy all the projects
