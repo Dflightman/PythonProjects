@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+  font-family: 'Sans-serif';
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+body{
+  background-image: url("python-background test.jpg");
+  background-position: 50px 150px;
+}
+
+#title{
+  background: white;
+  border-radius: 100px;
+  width: calc(90% - 30px);
+  margin: 0 auto;
+  padding: 25px;
+  box-shadow: rgba(70, 13, 13, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#title h1{
+  font-size: 55px;
+}
+
+#title p{
+  font-size: 20px;
+}
+
+body h1 + p { margin-top: -30px; }
+
+#content{
+  border-radius: 70px;
+  background: white;
+  width: calc(90% - 30px);
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin: 0 auto;
+}
+
+hr{
+  width: 50%;
+  border: 3px solid black;
+  border-radius: 6px;
+  background: black;
+}
+
+ul{
+  text-align: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.textsmall{
+  width: 500px;
+  margin: 0 auto;
+}
